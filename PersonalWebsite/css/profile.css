@@ -1,0 +1,112 @@
+html{
+    background-color: #4C7E80;
+}
+.background{
+    display: flex;
+    text-align: left;
+    color: gainsboro;
+    font-family: serif;
+}
+.Header{
+    margin-left: 4rem;
+    position: fixed;
+}
+.Name{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+    margin-top: 4.9rem;
+}
+.Intro{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    color: gainsboro;
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+li a:hover
+{
+    color: burlywood;
+}
+li a:after
+{
+    color: white;
+}
+li a:active
+{
+    color: burlywood;
+}
+.Links a i
+{
+    padding-top: 1rem;
+    padding-right: 1.2rem;
+    font-size:30px; 
+    color:gainsboro;
+}
+.Body{
+    text-align: left;
+    position: absolute;
+    left: 43vw;
+    font-size: 1.23rem;
+    
+}
+.aboutus
+{
+    padding-top: 6rem;
+}
+
+.aboutus p
+{
+    margin-block-start: 0px;
+}
+.experience
+{
+    padding-top: 6rem;
+}
+.experienceDesc
+{
+    display: flex;
+}
+.Years
+{
+    width: 130px;
+    display: flex;
+    margin-top: 0.6rem;
+}
+.Description
+{
+    width: 580px;
+    display: block;
+    margin-top: -0.6rem;
+}
+.Description ul
+{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    width: 570px;
+    overflow: hidden;
+}
+.Description ul li{
+    color: #b3946c;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 625rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    background-color: rgba(186,158,122, .1);
+    font-weight: bolder;
+}
+.Description p
+{
+    margin-bottom: 0px;
+}
